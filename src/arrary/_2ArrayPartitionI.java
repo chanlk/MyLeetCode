@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @author Chanlk
  * Create 1/15/18
  */
-public class ArrayPartitionI {
+public class _2ArrayPartitionI {
     public int arrayPairSum(int[] nums) {
         Arrays.sort(nums);
         int sum = 0;
