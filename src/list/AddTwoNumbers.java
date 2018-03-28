@@ -1,6 +1,6 @@
 package list;
 
-import com.sun.tools.javac.util.List;
+//import com.sun.tools.javac.util.List;
 
 /**
  * You are given two non-empty linked lists representing two non-negative integers.
