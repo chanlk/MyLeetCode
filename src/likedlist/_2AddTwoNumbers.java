@@ -1,22 +1,16 @@
-package list;
-
-import com.sun.tools.javac.util.List;
+package likedlist;
 
 /**
  * You are given two non-empty linked lists representing two non-negative integers.
  * The digits are stored in reverse order and each of their nodes contain a single digit.
- * Add the two numbers and return it as a linked list.
+ * Add the two numbers and return it as a linked likedlist.
  * You may assume the two numbers do not contain any leading zero, except the number 0 itself.
  *
  * @author Chanlk
  * Create 1/21/18
  */
-class ListNode {
-     int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-  }
-public class AddTwoNumbers {
+
+public class _2AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         int[] a1 = new int[30];
@@ -78,7 +72,7 @@ public class AddTwoNumbers {
         l2.next = new ListNode(6);
         l2.next.next = new ListNode(4);
 
-        AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
+        _2AddTwoNumbers addTwoNumbers = new _2AddTwoNumbers();
         ListNode listNode = addTwoNumbers.addTwoNumbers(l1, l2);
         System.out.println(listNode);
     }

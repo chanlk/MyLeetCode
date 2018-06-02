@@ -9,7 +9,7 @@ import java.util.HashMap;
  * @author Chanlk
  * Create 12/30/17
  */
-public class _1TwoSum1 {
+public class _1TwoSum {
 
     /**
      * 思路 : 把数组元素放入hashmap中,利用hashmap的特点,可以快速找到target-当前值是否有在hashmap中
@@ -41,7 +41,7 @@ public class _1TwoSum1 {
     public static void main(String[] argus) {
         int[] nums = {4, 2, 7, 3, 100};
         int target = 102;
-        int[] solution = _1TwoSum1.solution(nums, target);
+        int[] solution = _1TwoSum.solution(nums, target);
         System.out.println(Arrays.toString(solution));
     }
 }

@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Given a non-negative longeger represented as a non-empty array of digits, plus one to the longeger.
  * You may assume the longeger do not contain any leading zero, except the number 0 itself.
- * The digits are stored such that the most significant digit is at the head of the list.
+ * The digits are stored such that the most significant digit is at the head of the likedlist.
  *
  * @author Chanlk
  * Create 2/5/18
